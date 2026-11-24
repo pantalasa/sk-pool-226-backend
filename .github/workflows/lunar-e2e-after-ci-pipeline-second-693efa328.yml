@@ -1,0 +1,11 @@
+name: lunar-e2e-after-ci-pipeline-second-693efa328
+on:
+  push:
+    paths: [".github/workflows/lunar-e2e-after-ci-pipeline-second-693efa328.yml"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: localdev-e2e-test-45460813898-1-github-8-e2e
+    steps:
+      - run: 'true'
